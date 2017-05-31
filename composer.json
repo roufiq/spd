@@ -24,22 +24,19 @@
         "dmstr/yii2-adminlte-asset": "2.*",
         "kartik-v/yii2-grid": "@dev",
         "kartik-v/yii2-editable": "*",
-        "hscstudio/yii2-mimin": "*",
+        "hscstudio/yii2-mimin": "~1.1.4",
         "kartik-v/yii2-export": "*",
-		"macgyer/yii2-materializecss": "*",
+		"c006/yii2-migration-utility": "*",
         "kartik-v/yii2-helpers": "dev-master",
         "insolita/yii2-adminlte-widgets": "~2.0",
         "johnitvn/yii2-ajaxcrud": "*",
-		"hscstudio/yii2-mimin": "~1.1.4",
         "kartik-v/yii2-widget-growl": "*",
-        "machour/yii2-notifications": "@dev",
-        "conquer/jvectormap": "*"
+        "machour/yii2-notifications": "@dev"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",
         "yiisoft/yii2-gii": "~2.0.0",
         "yiisoft/yii2-faker": "~2.0.0",
-
         "codeception/base": "^2.2.3",
         "codeception/verify": "~0.3.1",
         "codeception/specify": "~0.4.3"

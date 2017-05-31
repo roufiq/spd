@@ -12,7 +12,7 @@ $config = [
             // add wildcard allowed action here!
             'site/*',
 //            'debug/*',
-//            'mimin/*', // wajib di comment kalo sudah masuk ke mode Prod
+            'mimin/*', // wajib di comment kalo sudah masuk ke mode Prod
         ],
     ],
     'components' => [
@@ -55,10 +55,10 @@ $config = [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
 //            'caseSensitive'=>false,
-            'rules' => [
-                '<controller:\w+>/<action:\w+>/<id:[a-zA-Z0-9_\-]+>'=>'<controller>/<action>',
-
-            ],
+//            'rules' => [
+//                '<controller:\w+>/<action:\w+>/<id:[a-zA-Z0-9_\-]+>'=>'<controller>/<action>',
+//
+//            ],
         ],
 
     ],
@@ -66,6 +66,9 @@ $config = [
         'gridview' => [ 'class' => '\kartik\grid\Module' ],
         'mimin' => [
             'class' => '\hscstudio\mimin\Module',
+        ],
+        'utility' => [
+            'class' => 'c006\utility\migration\Module',
         ],
 
     ],
